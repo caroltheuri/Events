@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>pet</title>
+  <link rel="stylesheet" href="css\style.css">
+  <link rel="stylesheet" href="css\bootstrap.min.css">
+</head>
+
+<body>
+
+  <h1>Pet Shop</h1>
+
+  <div id="shop">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-md-4">
+            <button type="button" class="btn btn-primary btn-lg" onclick="display()">Dogs</button>
+            <p id="dogs"></p>
+          </div>
+          <div class="col-md-4">
+            <button type="button" class="btn btn-primary btn-lg" onclick="display()">Cats</button>
+            <p id="cats"></p>
+          </div>
+          <div class="col-md-4">
+            <button type="button" class="btn btn-primary btn-lg" onclick="display()">Cows</button>
+            <p id="cows"></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <h2>Kindly fill your details to purchase</h2>
+        <p id="num" ></p>
+        <div class="container">
+          <div class="jumbotron">
+            <div class="form-group">
+              <label for="usr">Name:</label>
+              <input type="text" class="form-control" id="usr">
+            </div>
+            <div class="form-group">
+              <label for="phonenum">Phonenumber:</label>
+              <input type="number" class="form-control" id="phonenum">
+            </div>
+            <button type="submit" class="btn btn-success" onclick="promise()">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/main.js" charset="utf-8"></script>
+</body>
+
+</html>

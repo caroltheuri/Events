@@ -1,0 +1,10 @@
+#shop{
+  background-image: url('../kittens-cat-cat-puppy-rush-45170.jpeg');
+  width: 100%;
+  height:1000px;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+h1{
+  text-align: center;
+}
